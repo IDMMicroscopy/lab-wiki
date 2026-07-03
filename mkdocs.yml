@@ -1,6 +1,6 @@
 site_name: Lab Wiki
 site_description: SOPs, equipment guides, training materials, and policies
-# site_url: https://YOUR-ORG.github.io/lab-wiki/   # set this once deployed
+site_url: https://idmmicroscopy.github.io/lab-wiki/ 
 
 theme:
   name: material
