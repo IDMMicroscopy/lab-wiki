@@ -1,0 +1,61 @@
+site_name: Lab Wiki
+site_description: SOPs, equipment guides, training materials, and policies
+# site_url: https://YOUR-ORG.github.io/lab-wiki/   # set this once deployed
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+# Lets readers jump straight to "Edit this page" on GitHub (optional, remove if you don't want this)
+# edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Editing & Publishing Guide: editing-guide.md
+  - SOPs:
+      - Overview: sops/index.md
+  - Equipment:
+      - Overview: equipment/index.md
+  - Training:
+      - Overview: training/index.md
+  - Policies:
+      - Overview: policies/index.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
