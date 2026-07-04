@@ -1,22 +1,22 @@
-# SOP: [Sample Focusing at Light Microscope]
+# **SOP: [Sample Focusing at Light Microscope]**
 
-|                    |               |
-| ------------------ | ------------- |
+
 | **SOP ID**         | SOP-MICRO-001 |
+| ------------------ | ------------- |
 | **Version**        | 1.0           |
 | **Effective date** | 2025-10-02    |
 | **Owner**          | Name / role   |
 | **Review cycle**   | Annual        |
 
-## Purpose
+## **Purpose**
 
 This SOP provides step-by-step instructions for safely and effectively focusing samples at a light microscope to achieve optimal image quality while preventing damage to equipment and samples.
 
-## Scope
+## **Scope**
 
 This procedure applies to all users operating inverted light microscopes with various sample types including glass slides with coverslips, 35mm dishes, and multi-well plates.
 
-## Safety
+## **Safety**
 
 ***Critical***: Never allow objectives to contact the sample or holder surface (slide, coverslip, dish, etc.) directly 
     
@@ -44,7 +44,7 @@ This procedure applies to all users operating inverted light microscopes with
 
 - Complete loss of sample
 
-## Materials & equipment
+## **Materials & equipment**
 
 - Inverted light microscope 
     
@@ -74,7 +74,7 @@ This procedure applies to all users operating inverted light microscopes with
 
 - If using multi-well plates: Depending on the microscope and imaging objective used, you may not be able to image samples in the outmost wells (1-2 rows and columns, in a 96 well-plate).
 
-## Procedure
+## **Procedure**
 
 1. **Initial Setup** 
 
@@ -282,7 +282,7 @@ Lower objective until immersion media contact is *just* lost, the repeat the f
 
 - Complete sample loss
 
-## Troubleshooting
+## **Troubleshooting**
 
 | Issue                      | Likely cause             | Fix                             |
 | -------------------------- | ------------------------ | ------------------------------- |
@@ -291,6 +291,6 @@ Lower objective until immersion media contact is *just* lost, the repeat the f
 | Oil bubbles in image       | Air in immersion oil     | Remove and reapply oil          |
 | Sample moving during focus | Improper sample securing | Adjust sample holder            |
 
-## References
+## **References**
 
 - Related SOPs, manufacturer manuals, or publications

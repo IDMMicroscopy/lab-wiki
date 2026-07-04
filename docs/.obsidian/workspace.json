@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sops/index.md",
-                "mode": "preview",
+                "file": "sops/Sample-focusing-sop.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Sample-focusing-sop"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sops/index.md",
+                "file": "sops/Sample-focusing-sop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Sample-focusing-sop"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sops/index.md",
+                "file": "sops/Sample-focusing-sop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Sample-focusing-sop"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sops/index.md",
+                "file": "sops/Sample-focusing-sop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Sample-focusing-sop"
             }
           }
         ]
@@ -185,10 +185,10 @@
   },
   "active": "84dbc51dd2a93539",
   "lastOpenFiles": [
+    "sops/index.md",
     "sops/example-sop.md",
     "sops/Sample-focusing-sop.md",
     "Untitled.md",
-    "policies/index.md",
-    "sops/index.md"
+    "policies/index.md"
   ]
 }
