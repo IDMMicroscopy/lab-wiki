@@ -36,7 +36,6 @@ nav:
   - Home: index.md
   - Editing & Publishing Guide: editing-guide.md
   - SOPs:
-      - Overview: sops/index.md
       - Sample Focusing SOP: sops/Sample-focusing-sop.md
   - Equipment:
       - Overview: equipment/index.md
