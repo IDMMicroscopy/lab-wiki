@@ -59,6 +59,7 @@ nav:
       - Overview: training/index.md
   - Policies:
       - Overview: policies/index.md
+      - Access & Use Policy: policies/access-and-use-policy.md
 
 markdown_extensions:
   - admonition
