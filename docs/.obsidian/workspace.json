@@ -11,14 +11,12 @@
             "id": "84dbc51dd2a93539",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "sops/example-sop.md",
-                "mode": "source",
-                "source": false
+                "file": "policies/User Fees-IDM-mu-AMI-November2024-v1.2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "example-sop"
+              "icon": "lucide-file-text",
+              "title": "User Fees-IDM-mu-AMI-November2024-v1.2"
             }
           }
         ]
@@ -182,12 +180,12 @@
   },
   "active": "84dbc51dd2a93539",
   "lastOpenFiles": [
+    "sops/example-sop.md",
     "policies/User Fees-IDM-mu-AMI-November2024-v1.2.pdf",
     "policies/IDM-mu MOU and policy-November2024.pdf",
     "policies/AMI-IDM-mu Access-November2024.pdf",
     "sops/index.md",
     "sops/Sample-focusing-sop.md",
-    "sops/example-sop.md",
     "assets/logo-placeholder.svg",
     "assets/favicon.svg",
     "stylesheets/extra.css",
