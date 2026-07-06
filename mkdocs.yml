@@ -1,9 +1,14 @@
 site_name: Lab Wiki
 site_description: SOPs, equipment guides, training materials, and policies
-site_url: https://idmmicroscopy.github.io/lab-wiki/ 
+# site_url: https://YOUR-ORG.github.io/lab-wiki/   # set this once deployed
 
 theme:
   name: material
+  logo: assets/logo-placeholder.svg   # placeholder — swap for the real facility logo when available
+  favicon: assets/favicon.svg
+  font:
+    text: Inter
+    code: Roboto Mono
   palette:
     - scheme: default
       primary: teal
@@ -19,15 +24,25 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - navigation.indexes
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
     - content.action.edit
+    - content.tooltips
+    - toc.follow
   icon:
     repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css   # brand color overrides (exact teal #00d2aa) + logo/table polish
+
+hooks:
+  - hooks/sop_versioning.py   # auto version + last-updated banner on every SOP page, from git history
 
 # Lets readers jump straight to "Edit this page" on GitHub (optional, remove if you don't want this)
 # edit_uri: edit/main/docs/
@@ -36,7 +51,7 @@ nav:
   - Home: index.md
   - Editing & Publishing Guide: editing-guide.md
   - SOPs:
-      - Sample Focusing SOP: sops/Sample-focusing-sop.md
+      - Overview: sops/index.md
   - Equipment:
       - Overview: equipment/index.md
   - Training:
@@ -59,3 +74,4 @@ markdown_extensions:
 
 plugins:
   - search
+

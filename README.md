@@ -29,6 +29,21 @@ Every page is a plain `.md` file. Add a new page by creating the file, then addi
    ```
 4. Open `http://127.0.0.1:8000` in your browser — it live-reloads as you edit files.
 
+## Branding
+
+- The theme color is set to the facility's teal (`#00d2aa`), overridden precisely in `docs/stylesheets/extra.css` to match the Drupal site's academic accent.
+- `docs/assets/logo-placeholder.svg` is a placeholder mark — replace it with the real facility logo (SVG or PNG) and update the `logo:` and `favicon:` paths in `mkdocs.yml` to point at the new file(s).
+
+## Automatic SOP versioning
+
+Every page under `docs/sops/` (except the section overview) automatically gets a version banner at the top, generated from that file's git history — no manual editing required:
+
+> **v1.3** — Last updated **2026-07-04** (3 revisions on file)
+
+This is implemented in `hooks/sop_versioning.py`. The version number is simply `v1.<number of commits that touched this file>`, and the date is the most recent commit date for that file. New, uncommitted pages show a "Draft" banner instead.
+
+**Important:** this requires full git history to count correctly. The included GitHub Actions workflow already uses `fetch-depth: 0` for this reason — if you ever change or copy that workflow, keep that setting, or every SOP will show as "1 revision" regardless of its real history.
+
 ## Publishing (GitHub Pages)
 
 This repo includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that automatically builds and publishes the site to GitHub Pages every time you push to `main`.

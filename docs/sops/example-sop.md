@@ -3,10 +3,11 @@
 | | |
 |---|---|
 | **SOP ID** | SOP-001 |
-| **Version** | 1.0 |
-| **Effective date** | YYYY-MM-DD |
 | **Owner** | Name / role |
 | **Review cycle** | e.g. Annual |
+
+!!! note "Versioning"
+    The version number and last-updated date shown at the top of this page are generated automatically from this file's git history — no need to update them by hand. Just edit and commit as normal.
 
 ## Purpose
 
@@ -41,3 +42,5 @@ Who this applies to, and what equipment/samples/situations it covers.
 ## References
 
 - Related SOPs, manufacturer manuals, or publications
+
+

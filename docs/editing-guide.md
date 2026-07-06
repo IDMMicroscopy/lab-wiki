@@ -35,6 +35,10 @@ This page is a condensed, online version of the full "Lab Wiki \u2014 User & Pub
 | Image | `![alt](path.png)` |
 | Note box | `!!! note` then indented text below |
 
+## SOP versioning
+
+Every SOP page automatically shows a version number and last-updated date at the top, based on that page's git commit history \u2014 you don't need to update a version field by hand. Just edit and commit as usual; the number increments itself.
+
 ## How this site is hosted
 
 Published via **GitHub Pages**, rebuilt automatically by a GitHub Actions workflow every time changes are pushed to `main`. No server or database to maintain. See the full manual for institutional-hosting and custom-domain alternatives.
