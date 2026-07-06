@@ -1,35 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-         <loc>https://idmmicroscopy.github.io/lab-wiki/</loc>
-         <lastmod>2026-07-04</lastmod>
-    </url>
-    <url>
-         <loc>https://idmmicroscopy.github.io/lab-wiki/editing-guide/</loc>
-         <lastmod>2026-07-04</lastmod>
-    </url>
-    <url>
-         <loc>https://idmmicroscopy.github.io/lab-wiki/equipment/</loc>
-         <lastmod>2026-07-04</lastmod>
-    </url>
-    <url>
-         <loc>https://idmmicroscopy.github.io/lab-wiki/policies/</loc>
-         <lastmod>2026-07-04</lastmod>
-    </url>
-    <url>
-         <loc>https://idmmicroscopy.github.io/lab-wiki/sops/</loc>
-         <lastmod>2026-07-04</lastmod>
-    </url>
-    <url>
-         <loc>https://idmmicroscopy.github.io/lab-wiki/sops/Sample-focusing-sop/</loc>
-         <lastmod>2026-07-04</lastmod>
-    </url>
-    <url>
-         <loc>https://idmmicroscopy.github.io/lab-wiki/sops/example-sop/</loc>
-         <lastmod>2026-07-04</lastmod>
-    </url>
-    <url>
-         <loc>https://idmmicroscopy.github.io/lab-wiki/training/</loc>
-         <lastmod>2026-07-04</lastmod>
-    </url>
 </urlset>
